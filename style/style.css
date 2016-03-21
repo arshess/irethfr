@@ -1,0 +1,51 @@
+body{
+	background : #2B1B17;	
+}
+#header{
+	/* height : 100px; */
+}
+#reseausociaux img{
+	height : 16px;
+	transition : all 0.5s;
+}
+#reseausociaux img:hover{
+	transform: rotate(5deg) scale(1.5);
+}
+#petit-logo{
+	margin-top : -4px;
+}
+#contenu{
+	padding : 20px;
+}
+
+#footer{
+	height: 60px;
+}
+#footer > div {
+	background : #17272b;
+}
+#corps{ 
+
+}
+#stream{
+border: 0px;
+height :400px;
+}
+
+#chat{height : 400px;
+}
+.jours{
+	border : 1px solid pink;
+	height : 450px;
+}
+#today{
+	background : #17272b;
+	height : 100px;
+	margin-bottom : 10px;
+}
+@media (max-width : 767px){
+	.jours{
+		height : 100px;
+	}
+	
+}
